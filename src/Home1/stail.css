@@ -1,0 +1,20 @@
+div {
+    border: 1px solid black;
+}
+
+.thead{
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.thead div {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+}
