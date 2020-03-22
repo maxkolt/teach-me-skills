@@ -1,20 +1,19 @@
-div {
-    border: 1px solid black;
-}
-
-.thead{
+.flex {
     display: flex;
-    font-weight: bold;
-    justify-content: space-between;
-}
-
-.thead div {
-    width: 25%;
-    display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: center;
+
+}
+.item {
+
+    border: 1px solid #ae51c2;
+    width: 250px;
+    height: 120px;
 }
 
-.row {
+
+.flexi {
     display: flex;
+    flex-direction: column;
+    flex e
 }
