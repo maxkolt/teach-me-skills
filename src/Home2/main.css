@@ -15,5 +15,11 @@
 .flexi {
     display: flex;
     flex-direction: column;
-    flex e
+    justify-content: center;
+}
+
+.tem {
+    border: 1px solid #ae51c2;
+    width: 200px;
+    height: 120px;
 }
