@@ -1,25 +1,112 @@
-.flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-}
-.item {
-
-    border: 1px solid #ae51c2;
-    width: 250px;
-    height: 120px;
-}
-
-
-.flexi {
+.conteiner {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+    height: 600px;
+
 }
 
-.tem {
-    border: 1px solid #ae51c2;
-    width: 200px;
-    height: 120px;
+.flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 25%;
+}
+
+.flex div {
+    box-sizing: border-box;
+    background-color: #454bcb;
+    width: 19.9%;
+    height: 100%;
+}
+
+
+.conteiner2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 72%;
+}
+
+.flex2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.flex2 div {
+    width: 100%;
+    height: 38%;
+    background-color: red;
+}
+
+.flex2 div:nth-child(1) {
+    width: 100%;
+    height: 20%;
+}
+
+
+.conteiner3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 38%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.flex3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 40%;
+
+}
+
+.flex3 div {
+    width: 33%;
+    background-color: #6406a1;
+}
+
+.flex4 {
+    display: flex;
+    justify-content: space-between;
+    height: 57%;
+    padding: 0 10px;
+
+}
+
+.flex4 div {
+    width: 49.5%;
+    background-color: yellow;
+}
+
+.conteiner4 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.conteiner4 div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 34%;
+
+}
+
+.flex5 div, .flex6 div, .flex7 div {
+    background-color: aqua;
+    width: 49.7%;
+    height: 100%;
+}
+
+.flex5, .flex6 {
+    padding-bottom: 10px;
+}
+
+.flex6, .flex7 {
+    padding-top: 10px;
+    border-top: 1px solid black;
 }
