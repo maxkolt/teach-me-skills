@@ -1,0 +1,38 @@
+
+.grid-container {
+    display: grid;
+    height: 630px;
+    grid-template-areas: "h h h h h h h h" ".m m m m s s." ".m m m m s s." ".m m m m s s." ".t1 t1 t1 t2 t2 t2." ".t1 t1 t1 t2 t2 t2." "f f f f f f f f";
+    grid-gap: 2px
+}
+
+
+.bloc1 {
+    grid-area: h;
+    background-color: blue;
+}
+
+.bloc2 {
+    grid-area: m;
+    background-color: darkgreen;
+}
+
+.bloc3 {
+    grid-area: s;
+    background-color: purple;
+}
+
+.bloc4 {
+    grid-area: t1;
+    background-color: orange;
+}
+
+.bloc5 {
+    grid-area: t2;
+    background-color: orange;
+}
+
+.bloc6 {
+    grid-area: f;
+    background-color: aqua;
+}
