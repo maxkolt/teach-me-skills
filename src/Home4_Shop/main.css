@@ -1,0 +1,54 @@
+
+.item1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 40px;
+    background-color: white;
+    margin-right: 10%;
+}
+
+.item2 {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 50px;
+    margin-left: 10%;
+}
+.a {
+    line-height: 10px;
+}
+
+.b {
+    height: 0;
+    line-height: 1%;
+
+}
+
+.iphone {
+    height: 48px;
+}
+
+.met {
+    font-size: 43px;
+    text-align: center;
+    margin-left: 13%;
+    margin-top: -65px;
+}
+
+.input {
+    border: 1px solid black;
+    height: 30px;
+    width: 200px;
+    border-radius: 15px;
+    margin-left: 17%;
+    margin-top: 18px;
+}
+
+hr {
+    width: 95%;
+    color: grey;
+    size: 1px;
+    margin-top: 20px;
+}
