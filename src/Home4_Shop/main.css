@@ -1,4 +1,21 @@
+/*TODO: обычно паддинги обнуляют для всего документа вот так:
+        *,
+        *::after,
+        *::before {
+            margin: 0;
+            padding: 0;
+            box-sizing: inherit;
+        }
+        и помещают в начало main.css
+   */
+.team {
+    margin: auto;
+    padding-left: 0;
+}
 
+/*TODO: не называй класс так, чтобы невозможно было понять что он делает. Давай логически понятные имена.
+   У тебя есть justify-content - margin-right тебе не нужен по идее
+ */
 .item1 {
     display: flex;
     flex-direction: row;
@@ -9,6 +26,8 @@
     margin-right: 10%;
 }
 
+/*TODO: не называй класс так, чтобы невозможно было понять что он делает. Давай логически понятные имена.
+    margin-left точно нужен?*/
 .item2 {
     display: flex;
     flex-direction: row;
@@ -16,27 +35,36 @@
     height: 50px;
     margin-left: 10%;
 }
+
+/*TODO: не называй класс так, чтобы невозможно было понять что он делает. Давай логически понятные имена.*/
 .a {
     line-height: 10px;
 }
 
+/*TODO: не называй класс так, чтобы невозможно было понять что он делает. Давай логически понятные имена.*/
 .b {
     height: 0;
     line-height: 1%;
-
 }
 
+/*TODO: не называй класс так, чтобы невозможно было понять что он делает. Давай логически понятные имена.
+   Переименуй например в icon - и сюда помещая ысе свойства для иконок
+   */
 .iphone {
     height: 48px;
 }
 
+/*TODO: не называй класс так, чтобы невозможно было понять что он делает. Давай логически понятные имена.*/
 .met {
+    display: flex;
+    flex-direction: row;
     font-size: 43px;
     text-align: center;
     margin-left: 13%;
     margin-top: -65px;
 }
 
+/*TODO: margin в % а padding d px? */
 .input {
     border: 1px solid black;
     height: 30px;
@@ -47,6 +75,15 @@
     padding-left: 10px;
 }
 
+/*TODO: список по английски = list. переименуй*/
+.spisok {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/*TODO: селектор по тегу замени на class*/
 hr {
     width: 95%;
     color: grey;
@@ -54,21 +91,184 @@ hr {
     margin-top: 20px;
 }
 
-.spisok {
+ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 15px;
+
+}
+
+.team {
+    margin: auto;
+    padding-left: 0;
+}
+
+.spisok2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
 }
 
-ul li {
-    list-style-type: none;
+.team2 {
     display: inline;
-    padding: 10px;
-
-}
-.team {
     margin: auto;
-    padding-left: 0;
+    padding: 0;
 }
 
+.team2 li img {
+    margin-bottom: -10px;
+}
+
+.team2 li {
+    padding: 80px;
+}
+
+.bloc {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+
+.bloc1 {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr;
+    grid-gap: 4px;
+    height: 610px;
+    margin: auto;
+    padding: 4px;
+}
+
+.bloc2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 4px;
+}
+
+.b1, .b2, .b3 {
+    padding: 20px;
+    line-height: 10px;
+    background-color: white;
+}
+
+.order {
+    height: 610px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.opisanie {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 7%;
+}
+
+.o1 {
+    color: red;
+    font-size: 50px;
+    font-family: "Corbel Light";
+}
+
+.o2 {
+    padding-top: 15px;
+}
+
+.inpute {
+    padding-left: 0;
+    border: 1px solid black;
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    margin-left: 30px;
+}
+
+
+.product, .new-arrivals, .most-popular {
+    padding-top: 30px;
+    margin-bottom: -300px;
+}
+
+.fetuared-producrs-header, .new-arrivals-header, .most-popular-header {
+    padding-left: 175px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.padding-left {
+    padding-left: 175px;
+}
+
+.padding-right {
+    padding-right: 150px;
+}
+
+.padding-top {
+    padding-top: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.bot {
+    height: 30px;
+    font-size: 12px;
+    border-radius: 15px;
+    background: none;
+    border-top: 1px solid grey;
+    border-left: 1px solid grey;
+}
+
+
+.foot1 {
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+}
+
+.foot11 {
+    margin: 15px;
+    width: 25%;
+    font-size: 15px;
+    text-align: center;
+}
+
+.foothead {
+    font-weight: bold;
+    padding-bottom: 7px;
+}
+
+.join {
+    height: 37px;
+    width: 203px;
+    border-radius: 12px;
+    background-color: darkgreen;
+    color: white;
+    margin: 4px;
+}
+
+.foot2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+}
+
+.foot21 {
+    width: 20%;
+    text-align: center;
+    color: gray;
+}
+
+.inputl {
+    border: 1px solid black;
+    height: 30px;
+    width: 200px;
+    border-radius: 15px;
+    margin-top: 18px;
+    padding-left: 10px;
+}
