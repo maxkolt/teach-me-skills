@@ -44,6 +44,7 @@
     border-radius: 15px;
     margin-left: 17%;
     margin-top: 18px;
+    padding-left: 10px;
 }
 
 hr {
@@ -52,3 +53,22 @@ hr {
     size: 1px;
     margin-top: 20px;
 }
+
+.spisok {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+
+}
+.team {
+    margin: auto;
+    padding-left: 0;
+}
+
