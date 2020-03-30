@@ -1,4 +1,21 @@
+/*TODO: обычно паддинги обнуляют для всего документа вот так:
+        *,
+        *::after,
+        *::before {
+            margin: 0;
+            padding: 0;
+            box-sizing: inherit;
+        }
+        и помещают в начало main.css
+   */
+.team {
+    margin: auto;
+    padding-left: 0;
+}
 
+/*TODO: не называй класс так, чтобы невозможно было понять что он делает. Давай логически понятные имена.
+   У тебя есть justify-content - margin-right тебе не нужен по идее
+ */
 .item1 {
     display: flex;
     flex-direction: row;
@@ -8,7 +25,8 @@
     background-color: white;
     margin-right: 10%;
 }
-
+/*TODO: не называй класс так, чтобы невозможно было понять что он делает. Давай логически понятные имена.
+    margin-left точно нужен?*/
 .item2 {
     display: flex;
     flex-direction: row;
@@ -16,20 +34,24 @@
     height: 50px;
     margin-left: 10%;
 }
+/*TODO: не называй класс так, чтобы невозможно было понять что он делает. Давай логически понятные имена.*/
 .a {
     line-height: 10px;
 }
-
+/*TODO: не называй класс так, чтобы невозможно было понять что он делает. Давай логически понятные имена.*/
 .b {
     height: 0;
     line-height: 1%;
-
 }
 
+/*TODO: не называй класс так, чтобы невозможно было понять что он делает. Давай логически понятные имена.
+   Переименуй например в icon - и сюда помещая ысе свойства для иконок
+   */
 .iphone {
     height: 48px;
 }
 
+/*TODO: не называй класс так, чтобы невозможно было понять что он делает. Давай логически понятные имена.*/
 .met {
     font-size: 43px;
     text-align: center;
@@ -37,6 +59,7 @@
     margin-top: -65px;
 }
 
+/*TODO: margin в % а padding d px? */
 .input {
     border: 1px solid black;
     height: 30px;
@@ -47,28 +70,25 @@
     padding-left: 10px;
 }
 
+/*TODO: список по английски = list. переименуй*/
+.spisok {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+/*TODO: селектор по тегу замени на class*/
 hr {
     width: 95%;
     color: grey;
     size: 1px;
     margin-top: 20px;
 }
-
-.spisok {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-}
-
 ul li {
     list-style-type: none;
     display: inline;
     padding: 10px;
 
 }
-.team {
-    margin: auto;
-    padding-left: 0;
-}
-
