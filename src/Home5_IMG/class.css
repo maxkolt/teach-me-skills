@@ -1,0 +1,46 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    grid-template-rows: repeat(3, 175px);
+    grid-gap: 12px;
+    color: grey;
+}
+
+.bloc {
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+.bloc1 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    align-items: center;
+    padding: 2px;
+    height: 25px;
+}
+
+.bloc2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.fa-icon {
+    width: 12%;
+    padding: 1px;
+}
+
+.social {
+    margin-right: 4px;
+}
+
+p {
+    font-size: 12px;
+}
+
+img {
+    padding-left: 17px;
+}
+
+
