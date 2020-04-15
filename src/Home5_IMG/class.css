@@ -1,7 +1,7 @@
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 150px);
-    grid-template-rows: repeat(3, 175px);
+    grid-template-rows: repeat(3, 180px);
     grid-gap: 12px;
     color: grey;
 }
@@ -27,7 +27,7 @@
 }
 
 .fa-icon {
-    width: 12%;
+    width: 18px;
     padding: 1px;
 }
 

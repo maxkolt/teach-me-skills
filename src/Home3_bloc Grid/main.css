@@ -48,6 +48,7 @@
     grid-template-rows: 1fr 2fr 2fr;
     grid-row-gap: 4px;
     margin-right: 4px;
+
 }
 
 .item-6-1 {
@@ -77,6 +78,7 @@
     height: 311%;
     border-left: 1px solid black;
     border-right: 1px solid black;
+
 }
 
 .item-7-1 {
@@ -84,6 +86,7 @@
     justify-content: space-between;
     padding: 0 5px;
     height: 40%;
+
 }
 
 .item-7-1 div {
@@ -109,12 +112,14 @@
     grid-row: 2 / 2;
     grid-column: 4 / 4;
     margin-left: 2px;
+
 }
 
 .item-9 {
     background: aqua;
     grid-row: 2 / 2;
     grid-column: 5 / 5;
+
 }
 
 .item-10 {

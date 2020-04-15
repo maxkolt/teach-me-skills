@@ -1,0 +1,131 @@
+.container {
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.bloc {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bloc div {
+    width: 19.94%;
+    background-color: #2921d4;
+    height: 100%;
+}
+
+.bloc1 {
+    width: 100%;
+    height: 72%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.red {
+    width: 21.94%;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.red div {
+    width: 100%;
+    height: 38%;
+    background-color: red;
+    flex-shrink: 0;
+    margin-top: 5px;
+
+}
+
+.red div:nth-child(1) {
+    width: 100%;
+    height: 25%;
+}
+
+.bloc2 {
+    width: 37%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.purple {
+    box-sizing: border-box;
+    height: 41%;
+    display: flex;
+    overflow: auto;
+    margin: 3px;
+
+}
+
+.purple div {
+    width: 33%;
+    background-color: purple;
+    flex-shrink: 0;
+    margin-left: 5px;
+}
+
+.yellow {
+    box-sizing: border-box;
+    height: 58%;
+    display: flex;
+   margin: 3px;
+    overflow: auto;
+}
+
+.yellow div {
+    width: 49.7%;
+    background-color: yellow;
+    flex-shrink: 0;
+    margin-left: 5px;
+
+}
+
+.bloc3 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.bloc3 div {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    box-sizing: border-box;
+    flex-shrink: 0;
+
+}
+
+.a div, .b div, .c div {
+    width: 49.9%;
+    padding-top: 0;
+    height: 100%;
+    background-color: aqua;
+    flex-shrink: 0;
+    margin-right: 5px;
+
+
+}
+
+.a, .b {
+    padding-bottom: 7px;
+
+}
+
+.b, .c {
+    padding-top: 7px;
+    border-top: 1px solid black;
+
+}
+
+.a, .b, .c {
+    overflow: auto;
+}
